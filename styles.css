@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: poppins;
+}
+
+.container {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(image.jpg);
+    background-size: cover;
+    background-color: black;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+
+img {
+    width: 100%;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #fb6066
+}
+
+p {
+    font-weight: 500;
+    text-shadow: 0 0 1px white;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.btn {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+.btn-start {
+    background-color: #8d3f59;
+}
+
+.btn-new {
+    background-color: #734d4a;
+}
+
+.btn-new-game {
+    color: black;
+}
+
+.btn:active {
+    transform: scale(.98);
+}
